@@ -197,5 +197,5 @@ For questions or feature requests, open an issue on GitHub.
 
 ## License
 
-
+The project is available as open source under the terms of the MIT License.
 
