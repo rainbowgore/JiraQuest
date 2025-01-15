@@ -1,4 +1,4 @@
-# JiraQuest
+# JiraQuest 🌌
 
 Embark on a journey to uncover insights from your Jira comments.
 
@@ -210,7 +210,10 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes.
 4. Open a pull request.
 
-Make sure to follow the code of conduct and contribute in a respectful manner.
+## 📜 Code of Conduct
+
+Please note that this project has a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+
 
 For questions or feature requests, open an issue on GitHub.
 
