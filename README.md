@@ -147,13 +147,12 @@ python cli_integration.py --slack-me
 
 ## Example Files
 
-1. **`sample_input.xlsx`**: A template for input data with example Jira issue keys and components.
+You'll find the following example files in the `data` directory:
 
-   - [Download sample\_input.xlsx](sandbox:/mnt/data/sample_input.xlsx)
+1. **`sample_input.xlsx`**: A template for input data with example Jira issue keys and components.
 
 2. **`excluded_users.txt`**: A template for excluded users.
 
-   - [Download excluded\_users.txt](sandbox:/mnt/data/excluded_users.txt)
 
 ---
 
@@ -171,9 +170,29 @@ python cli_integration.py --slack-me
         "Author-1": "John Doe",
         "Email-1": "john@example.com",
         "Created-1": "2025-01-10T12:34:56Z",
-        "Sentiment": "Negative"
+        "Comment-2": "I have fixed the issue.",
+        "Author-2": "Jane Smith",
+        "Email-2": "jane@example.com",
+        "Created-2": "2025-01-11T08:22:33Z",
+        "Comment-3": "The fix has been deployed.",
+        "Author-3": "John Doe",
+        "Email-3": "john@example.com",
+        "Created-3": "2025-01-12T09:45:12Z"
     }
 ]
+```
+
+### Slack Notification:
+
+```plaintext
+New comments have been processed for the following Jira issues:
+
+- **PROJ-123 (Frontend)**
+  - *John Doe*: The feature is not working as expected.
+  - *Jane Smith*: I have fixed the issue.
+  - *John Doe*: The fix has been deployed.
+
+Check the detailed report for more information.
 ```
 
 ### Slack Notification:
@@ -190,6 +209,8 @@ Contributions are welcome! Please follow these steps:
 2. Create a new branch (`feature/new-feature`).
 3. Commit your changes.
 4. Open a pull request.
+
+Make sure to follow the code of conduct and contribute in a respectful manner.
 
 For questions or feature requests, open an issue on GitHub.
 
