@@ -1,0 +1,21 @@
+# Build artifacts
+dist/
+*.egg-info/
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS system files
+.DS_Store
+
+# Example files (optional)
+data/excluded_users.txt
+data/sample_input.xlsx
+
+# Exclude PyPI credentials
+.pypirc
